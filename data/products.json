@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ETHIOPIAN_YIRGACHEFFE",
+    "name": "Ethiopian Yirgacheffe",
+    "price": 18.00,
+    "image": "/images/ethiopia.jpg",
+    "description": "Tasting Notes: Chocolate covered cherry, buttery, sweet cream, rich Ethiopia Yirgacheffe comes from the coffee plant’s homeland and with these heirloom varietals you get to taste hundreds of years of history in your cup. Variety: Heirloom Varietals Growing Region: Yirgacheffe Process: Washed & Sundried",
+    "product_url": "http://cups-coffee.netlify.com"
+  },
+  {
+    "id": "BLUEBERRY_CINNAMON",
+    "name": "Blueberry Cinnamon",
+    "price": 18.50,
+    "image": "/images/blueberry-cinnamon.jpg",
+    "description": "A unique and memorable favorite among flavor drinkers. A light blueberry top note with a wonderful cinnamon underneath.",
+    "product_url": "http://cups-coffee.netlify.com"
+  }
+]
