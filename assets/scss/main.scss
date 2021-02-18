@@ -85,3 +85,26 @@ main {
   100% { transform: scale(1.9); }
 }
 
+.container{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #FFFFFF;
+  background: url(/images/cups-front.jpg) center center no-repeat;
+  background-size: cover;
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(228, 228, 228, 0.63);
+  }
+}
+
+#hero{
+  position: relative;
+
+}

@@ -1,11 +1,12 @@
 {{ partial "header.html" . }}
 <main class="container">
-  <div class="promotional-message">
+  <div id="hero" class="promotional-message">
     <h3>More than coffee</h3>
     <h2>Cups is Community</h2>
+
+    <a href="/products" class="store">{{.Content}}</a>
   </div>
 
-  <a href="/products" class="store">{{.Content}}</a>
 
 </main>
 {{ partial "footer.html" . }}
