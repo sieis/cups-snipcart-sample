@@ -47,5 +47,6 @@ fields:
   label: product_url
   description: product url
 pages:
+- content/products/Blueberry Cinnamon.md
 - content/products/Ethiopia Yirgacheffe.md
 - content/products/tanzanian-southern-highlands.md
