@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+<main class="products">
+  <img src="/images/icons/cheese-background.svg" alt="" class="background-image">
+  <div class="promotional-message">
+    <h3>Grown around the world</h3>
+    <h2>Roasted in Mississippi</h2>
+    <p>We roast with <span id="love">love</span> <svg class="heart" viewBox="0 0 32 29.6">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+        	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </svg> each week in small batches to make sure you have deliciously
+      fresh coffee
+      every morning.</p>
+    <p>We ship
+      <span class="heart"><svg class="truck" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.23em" height="1em"
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+          preserveAspectRatio="xMidYMid meet" viewBox="0 0 1728 1408">
+          <path
+            d="M576 1152q0-52-38-90t-90-38t-90 38t-38 90t38 90t90 38t90-38t38-90zM192 640h384V384H418q-13 0-22 9L201 588q-9 9-9 22v30zm1280 512q0-52-38-90t-90-38t-90 38t-38 90t38 90t90 38t90-38t38-90zM1728 64v1024q0 15-4 26.5t-13.5 18.5t-16.5 11.5t-23.5 6t-22.5 2t-25.5 0t-22.5-.5q0 106-75 181t-181 75t-181-75t-75-181H704q0 106-75 181t-181 75t-181-75t-75-181h-64q-3 0-22.5.5t-25.5 0t-22.5-2t-23.5-6t-16.5-11.5T4 1114.5T0 1088q0-26 19-45t45-19V704q0-8-.5-35t0-38t2.5-34.5t6.5-37t14-30.5t22.5-30l198-198q19-19 50.5-32t58.5-13h160V64q0-26 19-45t45-19h1024q26 0 45 19t19 45z"
+            fill="#626262" />
+        </svg></span>
+      on Wednesdays and Thursdays each week!
+    </p>
+  </div>
+  {{ range where .Site.RegularPages "Section" "products" }}
+  {{ partial "product.html" .Params }}
+  {{ end }}
+</main>
+{{ partial "footer.html" . }}
