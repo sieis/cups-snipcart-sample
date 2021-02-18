@@ -47,4 +47,5 @@ fields:
   label: product_url
   description: product url
 pages:
+- content/products/Ethiopia Yirgacheffe.md
 - content/products/tanzanian-southern-highlands.md
