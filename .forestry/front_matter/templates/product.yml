@@ -46,3 +46,5 @@ fields:
     required: false
   label: product_url
   description: product url
+pages:
+- content/products/tanzanian-southern-highlands.md
